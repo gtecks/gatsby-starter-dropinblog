@@ -1,0 +1,50 @@
+{
+  "name": "gatsby-starter-dropinblog",
+  "private": true,
+  "description": "A simple a beautiful starter for working with the DropInBlog CMS in Gatsby",
+  "version": "0.1.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "env-cmd .env gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "7.0.0",
+    "@chakra-ui/core": "^0.5.2",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "babel-preset-gatsby": "^0.4.2",
+    "emotion-theming": "^10.0.27",
+    "env-cmd": "8.0.2",
+    "gatsby": "^2.21.33",
+    "gatsby-awesome-pagination": "^0.3.5",
+    "gatsby-image": "^2.2.41",
+    "gatsby-plugin-emotion": "^4.2.1",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-source-custom-api": "^2.1.4",
+    "gatsby-source-dropinblog": "^0.0.7",
+    "git": "^0.1.5",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DropInBlog/gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/DropInBlog/gatsby-starter/issues"
+  }
+}
